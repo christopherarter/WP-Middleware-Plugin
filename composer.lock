@@ -1,0 +1,54 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "0ae7c502a7093c3dc44f16533d165fc1",
+    "packages": [
+        {
+            "name": "christopherarter/wp-middleware",
+            "version": "0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/christopherarter/WP-Middleware.git",
+                "reference": "51db26bdd53b3323a62e86519e24ce782bb4f283"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/christopherarter/WP-Middleware/zipball/51db26bdd53b3323a62e86519e24ce782bb4f283",
+                "reference": "51db26bdd53b3323a62e86519e24ce782bb4f283",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "WPMiddleware\\": "src/"
+                },
+                "files": [
+                    "src/helpers.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Christopher Arter",
+                    "email": "christopherarter@gmail.com"
+                }
+            ],
+            "description": "A middleware for the Wordpress REST API",
+            "time": "2019-05-22T21:11:32+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

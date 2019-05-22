@@ -1,0 +1,17 @@
+{
+    "name": "christopherarter/wp-middleware",
+    "description": "A middleware for the Wordpress REST API",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Christopher Arter",
+            "email": "christopherarter@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {"WPMiddleware\\": "src/"},
+        "files": ["src/helpers.php"]
+    },
+    "require": {}
+}

@@ -1,0 +1,9 @@
+{
+    "name": "christopherarter/wp-middleware-plugin",
+    "description": "Plugin for WP Middleware",
+    "type": "library",
+    "license": "MIT",
+    "require": {
+        "christopherarter/wp-middleware": "^0.1.0"
+    }
+}
